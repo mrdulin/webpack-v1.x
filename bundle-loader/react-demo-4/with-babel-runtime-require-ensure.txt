@@ -1,0 +1,10 @@
+212K	dist/app.ab8538738091eb7569ad.js
+4.0K	dist/app.db80556c5276450e.css
+4.0K	dist/chunks/1.indexRoute.ec79b6ae.js
+ 80K	dist/chunks/2.home.ec3e1e6d.js
+4.0K	dist/chunks/3.dynamicChildRoutes.bdba586c.js
+ 80K	dist/chunks/4.contact.b808dd7e.js
+ 80K	dist/chunks/5.about.3344ff4c.js
+248K	dist/chunks
+4.0K	dist/index.html
+468K	dist

@@ -1,0 +1,11 @@
+@import 'variable.scss';
+
+.button-default{
+	border: $border-light;
+    background: #fff;
+    padding: 6px 8px;
+    color: #666;
+    box-sizing: border-box;
+}
+
+

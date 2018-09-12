@@ -1,0 +1,15 @@
+.button{
+   padding: 6px 10px;
+   box-sizing: border-box;
+   outline: none;
+   border: 1px solid #ddd;
+   //autoprefixer会移除老旧的，没必要的前缀
+   -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.button-primary{
+    @extend .button;
+    background-color: lightskyblue;
+    color: #fff;
+}

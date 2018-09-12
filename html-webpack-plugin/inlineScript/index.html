@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no">
+	<title><%= htmlWebpackPlugin.options.title %></title>
+	<script>
+		<%= htmlWebpackPlugin.options.inline %>
+	</script>
+	<%=
+	htmlWebpackPlugin.options.files.js.map(bundleName => {
+		return '<script src="'+ bundleName +'"></script>'
+	}).join('')
+	%>
+</head>
+<body>
+	<pre><%= JSON.stringify(htmlWebpackPlugin, null, 4) %></pre>
+</body>
+</html>

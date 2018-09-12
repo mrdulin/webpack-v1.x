@@ -1,0 +1,8 @@
+#container{
+    width: 100px;
+    height: 100px;
+    /*url(~module/image.png) => require('module/image.png')*/
+    /*~符号后面可以跟alias中指定的模块路径别名*/
+    background: url(~public/images/2.jpg) no-repeat;
+    background-size: contain;
+}

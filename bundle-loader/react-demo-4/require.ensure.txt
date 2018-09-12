@@ -1,0 +1,6 @@
+4.0K	dist/chunks/1.indexRoute.ec79b6ae.js
+4.0K	dist/chunks/2.home.f9e6fac1.js
+4.0K	dist/chunks/3.dynamicChildRoutes.368a8bcf.js
+4.0K	dist/chunks/4.contact.a945a428.js
+4.0K	dist/chunks/5.about.870a442f.js
+ 20K	dist/chunks

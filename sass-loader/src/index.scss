@@ -1,0 +1,6 @@
+@import 'mixin.scss';
+@import '~styles/base.scss';
+
+.test{
+	@include horizontal-line;
+}

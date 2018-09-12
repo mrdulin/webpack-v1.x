@@ -1,0 +1,29 @@
+.flex{
+    display: flex;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+//已经写了部分前缀的样式
+//Autoprefixer可能会再次添加几个前缀，但我们想要的样式顺序可能就不对了。
+//查看webpack打包生成的样式文件, 如下：
+/**
+.v-center {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+      -ms-grid-row-align: center;
+      align-items: center;
+  -moz-align-items: center;
+  -webkit-align-items: center; }
+*/
+.v-center{
+    -webkit-box-align: center;
+    align-items: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+}
+.h-center{
+    justify-content: center;
+}

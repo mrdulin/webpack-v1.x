@@ -1,0 +1,30 @@
+{
+  "app": {
+    "js": "bundles/app.js?0895fa4b",
+    "css": "app.9fccd993.css"
+  },
+  "indexRoute": {
+    "js": "modules/1.indexRoute.chunk.js?938ec340"
+  },
+  "home": {
+    "js": "modules/2.home.chunk.js?c7e37c05"
+  },
+  "dynamicChildRoutes": {
+    "js": "modules/3.dynamicChildRoutes.chunk.js?e9e92058"
+  },
+  "contact": {
+    "js": "modules/4.contact.chunk.js?6d853fd3"
+  },
+  "about": {
+    "js": "modules/5.about.chunk.js?3caff7bc"
+  },
+  "common": {
+    "js": "common.js?d9841179"
+  },
+  "home-common": {
+    "js": "home-common.js?d9841179"
+  },
+  "vendor": {
+    "js": "vendor.js?5b711a78"
+  }
+}

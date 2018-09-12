@@ -1,0 +1,30 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ ul {
+     list-style-type: none;
+ }
+ 
+ .list {
+     padding: 10px;
+     border: 1px solid #ddd;
+     overflow: hidden;
+ }
+ 
+ .list>li {
+     position: relative;
+     display: inline-block;
+     border: 1px solid #ddd;
+     font-size: 15px;
+     text-overflow: ellipsis;
+     max-width: 119px;
+     overflow: hidden;
+     white-space: nowrap;
+     padding: 6px 10px;
+     margin-left: 10px;
+     margin-bottom: 10px;
+     text-align: center;
+     word-break: keep-all;
+ }

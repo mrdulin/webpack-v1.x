@@ -1,0 +1,12 @@
+220K	dist/app.43cc15b25b6f5fff184a.js
+4.0K	dist/app.5dfd5cdddaad207e5b2c20b0c3d332ba.css
+4.0K	dist/chunks/1.1.js
+4.0K	dist/chunks/2.2.js
+4.0K	dist/chunks/3.3.js
+4.0K	dist/chunks/4.4.js
+4.0K	dist/chunks/5.5.js
+4.0K	dist/chunks/6.6.js
+4.0K	dist/chunks/7.7.js
+ 28K	dist/chunks
+4.0K	dist/index.html
+256K	dist

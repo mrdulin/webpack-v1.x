@@ -1,0 +1,5 @@
+.bg{
+	background: url('../image/3.jpg') no-repeat;
+	height: 200px;
+	background-size: contain;
+}

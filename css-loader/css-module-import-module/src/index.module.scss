@@ -1,0 +1,15 @@
+.button-primary{
+    composes: button from './common/sass/button.scss';
+    background: lightblue;
+}
+
+.link-small{
+    // composes: link from './common/sass/link.css';
+    composes: link from 'common/sass/link.module.css';
+    font-size: 14px;
+}
+
+.list-m{
+    composes: list from 'common/sass/list.module.scss';
+    border: 1px solid #ddd;
+}

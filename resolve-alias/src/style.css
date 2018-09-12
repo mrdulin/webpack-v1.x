@@ -1,0 +1,21 @@
+body{
+	background: #efefef;
+	/*background: url(aaaaa/images/bg.jpg) no-repeat;*/
+
+	/*使用相对路径*/
+	/*background: url(../common/images/bg.jpg) no-repeat;*/
+
+	/*css-loader处理的css的url解析规则和require一样*/
+	/*webpack设置了路径别名common*/
+	/*~符号，表示后面的是一个模块*/
+	background: url(~common/images/bg.jpg) no-repeat;
+}
+
+
+/*base64*/
+.cart{
+	width: 64px;
+	height: 64px;
+	background: url(~common/images/cart.png) center no-repeat;
+	background-size: 100%;
+}
